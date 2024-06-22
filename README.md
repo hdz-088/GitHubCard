@@ -19,6 +19,3 @@ This is a simple web application that generates a GitHub profile card based on a
 
 ## Demo
 You can try out the GitHub Profile Card Generator [here](https://hdz-088.github.io/GitHubCard/).
-
-## License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
