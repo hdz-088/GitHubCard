@@ -5,11 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GitHub Profile</title>
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>* {
+        font-family: "Outfit", sans-serif;
+    }</style>
 </head>
 
 <body class="bg-[#0d1117]">
@@ -25,8 +28,8 @@
                 </div>
             </form>
         </div>
-        <div id="card" class="flex flex-row bg-[#010409ba] rounded-xl text-slate-300 p-2 border border-[#010409]">
-            <div id="cardleft" class="flex flex-col items-center justify-center p-3">
+        <div id="card" class="flex md:flex-row bg-[#010409ba] rounded-xl text-slate-300 p-2 border border-[#010409] h-2/5 w-3/7 max-md:flex-col max-md:h-full max-md:w-10/12" style="box-shadow: 0px 0px 21px 5px rgba(0, 0, 0, 0.37);">
+            <div id="cardleft" class="flex flex-col items-center justify-center p-3 max-md:w-full">
                 <img id="avatar" src="https://avatars.githubusercontent.com/u/85785534" width="200px"
                     class="rounded-full border border-slate-200">
                 <p
@@ -34,37 +37,37 @@
                     <a id="ghlink" href="https://github.com/hdz-088">hdz-088</a>
                 </p>
             </div>
-            <div id="cardright" class="p-3 flex flex-col justify-evenly h-full w-4/6">
-                <p><b>Name: </b><span id="fname" class="font-normal">Harshdeepsinh Zala</span></p>
-                <p><b>eMail: </b><span id="email" class="font-normal">hdz088@outlook.com</span></p>
-                <p><b>Link: </b><span id="link" class="font-normal">https://hdz-088.github.io/hdzala/</span>
+            <div id="cardright" class="p-3 flex flex-col justify-evenly h-full w-4/6 max-md:w-full">
+                <p class="text-cyan-300"><b>Name: </b><span id="fname" class="text-white">Harshdeepsinh Zala</span></p>
+                <p class="text-cyan-300"><b>eMail: </b><span id="email" class="text-white">hdz088@outlook.com</span></p>
+                <p class="text-cyan-300"><b>Link: </b><span id="link" class="text-white">https://hdz-088.github.io/hdzala/</span>
                 </p>
-                <p><b>Bio: </b><span id="bio" class="font-normal">Developer</span> </p>
-                <p><b>Location:</b> <span id="location" class="font-normal">India</span></p>
+                <p class="text-cyan-300"><b>Bio: </b><span id="bio" class="text-white">Developer</span> </p>
+                <p class="text-cyan-300"><b>Location:</b> <span id="location" class="text-white">India</span></p>
                 <div id="rightbottom" class="flex flex-row justify-evenly text-center text-xs gap-2">
-                    <div id="bottom1" class="border p-1 border-slate-400 rounded-md w-16">
+                    <div id="bottom1" class="border p-1 border-cyan-300 rounded-md w-16">
                         <p id="followers">2</p>
                         <p class="text-slate-500">Followers</p>
                     </div>
-                    <div id="bottom2" class="border p-1 border-slate-400 rounded-md w-16">
+                    <div id="bottom2" class="border p-1 border-cyan-300 rounded-md w-16">
                         <p id="following">0</p>
                         <p class="text-slate-500">Following</p>
                     </div>
-                    <div id="bottom3" class="border p-1 border-slate-400 rounded-md w-16">
+                    <div id="bottom3" class="border p-1 border-cyan-300 rounded-md w-16">
                         <p id="repos">15</p>
                         <p class="text-slate-500">Repos</p>
                     </div>
-                    <div id="bottom4" class="border p-1 border-slate-400 rounded-md w-16">
+                    <div id="bottom4" class="border p-1 border-cyan-300 rounded-md w-16">
                         <p id="gist">0</p>
                         <p class="text-slate-500">Gist</p>
                     </div>
                 </div>
             </div>
         </div>
-        <p class="text-white text-xs mt-10">Made by <a href="https://github.com/hdz-088" class="underline text-cyan-300"
+        <p class="text-white text-xs my-10">Made by <a href="https://github.com/hdz-088" class="underline text-cyan-300"
                 target="_blank">HDz</a>🦉</p>
     </div>
-    <script src="script.js"></script>
+    <script src="assets/script.js"></script>
 </body>
 
 </html
